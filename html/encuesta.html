@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTL-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/JavaScript" src="../js/funciones2.js"></script>
+        <link rel="stylesheet" href="../css/estilos2.css" type="text/css">
+        <title>Encuesta</title>
+    </head>
+    <body>
+        <nav id="menuPrincipal">
+            <h1>
+                <a class="opcionMenuPrincipal" href="../index.html">¡ JavaScript !</a>
+            </h1>
+        </nav>
+    <section class="contenido quienesomos">
+        <article class="contenedor">
+            <p>Sexo:</p><br>
+            <input type="radio" name="gen" value="a"> Mujer <br>
+            <input type="radio" name="gen" value="b"> Hombre <br>
+            <input type="radio" name="gen" value="c"> Otro <br>
+            <p>-------------------------------------</p>
+            <p>¿Cuál es tu pizza preferida?</p><br>
+            <input type="radio" name="piz" value="a"> Hawaiana <br>
+            <input type="radio" name="piz" value="b"> Salchicha <br>
+            <input type="radio" name="piz" value="c"> Especial <br>
+            <p>-------------------------------------</p>
+            <p>¿Qué más te gusta tomar?</p><br>
+            <input type="radio" name="awa" value="a"> Agua pura/ de sabor <br>
+            <input type="radio" name="awa" value="b"> Cerveza/ licor <br>
+            <input type="radio" name="awa" value="c"> Refresco <br>
+            <p>-------------------------------------</p>
+            <p>¿Eres una persona distraída?</p><br>
+            <input type="radio" name="dis" value="a"> Mucho <br>
+            <input type="radio" name="dis" value="b"> Algo <br>
+            <input type="radio" name="dis" value="c"> Nada <br>
+            <p>-------------------------------------</p>
+            <p>¿Qué red social más usas?</p><br>
+            <input type="radio" name="red" value="a"> Twitter <br>
+            <input type="radio" name="red" value="b"> Facebook <br>
+            <input type="radio" name="red" value="c"> Instagram <br>
+            <br>
+            <input type="button" value="Mostrar" onclick="encuesta()">
+
+        </article>
+        
+        <p id="resultado" class="res">RESULTADO</p>
+            
+    </section>
+    <footer>
+        Todos los derechos reservados - @ SI
+    </footer>
+</body>
+</html>
